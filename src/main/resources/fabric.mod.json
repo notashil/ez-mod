@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "ez_gamble_analyzer",
+  "version": "${version}",
+  "name": "EZ",
+  "description": "A local-only tracker for manually recording game results and viewing statistics.",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.ez.analyzer.DonutAnalyzer"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
